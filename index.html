@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midnight Drive</title>
+    <meta name="theme-color" content="#050505" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#" class="brand-logo">MIDNIGHT DRIVE</a>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#home">Home</a>
+          <a href="#trending">Collection</a>
+          <a href="#spotlight">Spotlight</a>
+          <a href="#models">New Arrivals</a>
+          <a href="#footer">Contact</a>
+        </nav>
+        <a href="#contact" class="button button--nav">Enquire Now</a>
+      </div>
+    </header>
+
+    <section class="mega-hero" aria-label="Main Video Hero">
+      <div class="mega-hero__video-wrap">
+        <video class="mega-hero__video" autoplay muted playsinline loop>
+          <source src="VID_20260331112020.mp4" type="video/mp4" />
+        </video>
+        <div class="mega-hero__overlay"></div>
+      </div>
+
+      <div class="mega-hero__content reveals">
+        <p class="mega-hero__eyebrow">The World's Most Exclusive Toys</p>
+        <h1>Exotic & Luxury Motorcars</h1>
+        <p class="mega-hero__copy">
+          Discover a meticulously curated collection of performance and prestige vehicles, redefined for the ultimate enthusiast.
+        </p>
+        <div class="mega-hero__actions">
+          <a class="button button--primary" href="#trending">View Showroom</a>
+          <a class="button button--ghost" href="#spotlight">Explore Spotlight</a>
+        </div>
+        <div class="mega-hero__stats" aria-label="Performance highlights">
+          <div>
+            <span>Top Speed</span>
+            <strong>261 mph</strong>
+          </div>
+          <div>
+            <span>Power</span>
+            <strong>1,500+ hp</strong>
+          </div>
+          <div>
+            <span>Edition</span>
+            <strong>Ultra-Limited</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="page-shell" id="home">
+
+      <section class="spotlight-stage reveals" id="spotlight" aria-label="Supercar spotlight">
+        <div class="spotlight-stage__intro">
+          <p class="section-kicker">Supercar Spotlight</p>
+          <h2>Modern transitions, premium motion, and a sharper showroom feel.</h2>
+          <p>
+            Every panel is tuned to feel more cinematic. The layout now blends a strong editorial rhythm with a dedicated supercar image and smoother reveal effects.
+          </p>
+        </div>
+
+        <div class="spotlight-stage__grid">
+          <article class="spotlight-card spotlight-card--image">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Orange supercar with a dramatic profile" />
+            <div class="spotlight-card__tag">Track stance / Sculpted body / Pure speed</div>
+          </article>
+
+          <div class="spotlight-stage__stack">
+            <article class="spotlight-card spotlight-card--metric">
+              <span>Craft</span>
+              <strong>Precision engineering with a gallery-grade finish.</strong>
+            </article>
+            <article class="spotlight-card spotlight-card--image spotlight-card--compact">
+              <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1400&q=80" alt="White supercar with a sleek front angle" />
+              <div class="spotlight-card__tag">Aero lines / Low profile / Urban presence</div>
+            </article>
+            <article class="spotlight-card spotlight-card--metric">
+              <span>Presence</span>
+              <strong>Low-slung silhouettes that land with instant drama.</strong>
+            </article>
+            <article class="spotlight-card spotlight-card--metric">
+              <span>Motion</span>
+              <strong>Soft reveal timing and lift effects for a smoother flow.</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="trend-stage" id="trending" aria-label="Trending car feature">
+        <figure class="trend-card">
+          <div class="trend-card__media">
+            <img class="trend-card__image" src="assets/lambo.jpg" alt="Trending car front view" />
+          </div>
+
+          <div class="trend-card__panel">
+            <p class="trend-card__eyebrow">Signature Collection</p>
+            <h2 class="trend-card__title">Lamborghini Aventador</h2>
+            <p class="trend-card__copy">Experience the pinnacle of Italian engineering. Unleash raw power combined with a legendary edge-driven design.</p>
+          </div>
+        </figure>
+      </section>
+
+      <section class="model-stage latest-model" id="models" aria-label="Top car feature">
+        <figure class="car-showcase car-showcase--full">
+          <div class="car-showcase__media car-showcase__media--full">
+            <img class="car-showcase__image car-showcase__image--full" src="assets/bugati.jpg" alt="Bugatti front view car" />
+            <div class="car-showcase__overlay"></div>
+
+            <div class="car-showcase__panel car-showcase__panel--overlay" id="contact">
+              <p class="car-showcase__eyebrow">Exclusive Arrival</p>
+              <h2 class="car-showcase__title">Bugatti Chiron</h2>
+              <p class="car-showcase__copy">Masterpiece of performance and luxury. Engineered for the ultimate hypercar enthusiasts who demand uncompromising speed.</p>
+              <div class="car-showcase__stats">
+                <div>
+                  <span>Top Speed</span>
+                  <strong>261 mph</strong>
+                </div>
+                <div>
+                  <span>Engine</span>
+                  <strong>W16 Quad-Turbo</strong>
+                </div>
+                <div>
+                  <span>0-60 mph</span>
+                  <strong>2.4 sec</strong>
+                </div>
+              </div>
+              <a class="button button--primary" href="#trending">View More</a>
+            </div>
+          </div>
+        </figure>
+      </section>
+
+      <section class="top-brands reveals" id="brands" aria-label="Top Brands and Models">
+        <div class="top-brands__header">
+          <p class="section-kicker">Elite Manufacturers</p>
+          <h2>Top Brands</h2>
+        </div>
+        
+        <div class="top-brands__slider">
+          <a href="#" class="brand-item">
+            <div class="brand-item__media">
+              <img src="https://images.unsplash.com/photo-1613921568536-555645be4032?q=80&w=1122&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Porsche 911 GT3 RS" />
+            </div>
+            <div class="brand-item__text">
+              <h3 class="brand-item__name">Porsche</h3>
+              <p class="brand-item__model">911 GT3 RS</p>
+            </div>
+          </a>
+
+          <a href="#" class="brand-item">
+            <div class="brand-item__media">
+              <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&q=80&w=800" alt="Ferrari SF90 Stradale" />
+            </div>
+            <div class="brand-item__text">
+              <h3 class="brand-item__name">Ferrari</h3>
+              <p class="brand-item__model">SF90 Stradale</p>
+            </div>
+          </a>
+
+          <a href="#" class="brand-item">
+            <div class="brand-item__media">
+              <img src="https://images.unsplash.com/photo-1617814086906-d847a8bc6fca?q=80&w=1142&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="McLaren 765LT" />
+            </div>
+            <div class="brand-item__text">
+              <h3 class="brand-item__name">McLaren</h3>
+              <p class="brand-item__model">765LT</p>
+            </div>
+          </a>
+
+          <a href="#" class="brand-item">
+            <div class="brand-item__media">
+              <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=800" alt="Aston Martin Valkyrie" />
+            </div>
+            <div class="brand-item__text">
+              <h3 class="brand-item__name">Aston Martin</h3>
+              <p class="brand-item__model">Valkyrie</p>
+            </div>
+          </a>
+          
+          <a href="#" class="brand-item">
+            <div class="brand-item__media">
+              <img src="https://images.unsplash.com/photo-1600827361730-10f5451a5c13?auto=format&fit=crop&q=80&w=800" alt="Koenigsegg Jesko" />
+            </div>
+            <div class="brand-item__text">
+              <h3 class="brand-item__name">Koenigsegg</h3>
+              <p class="brand-item__model">Jesko</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <section class="about-section reveals" id="about" aria-label="About Midnight Drive">
+      <div class="about-section__media">
+        <video class="about-section__video" autoplay muted playsinline loop>
+          <source src="about.mp4" type="video/mp4" />
+        </video>
+        <div class="about-section__media-overlay"></div>
+      </div>
+
+      <div class="about-section__content">
+        <p class="section-kicker">About</p>
+        <h2>Midnight Drive is built for people who want more than a car listing.</h2>
+        <p>
+          We present exotic and luxury vehicles with a premium editorial feel, blending cinematic motion, curated imagery, and a clean showroom layout.
+        </p>
+        <p>
+          The goal is simple: make every visit feel polished, modern, and memorable from the first scroll.
+        </p>
+      </div>
+    </section>
+
+    <footer class="site-footer" id="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h3>MIDNIGHT DRIVE</h3>
+          <p>Premium Pre-Owned Exotic & Luxury Cars</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Showroom</h4>
+            <a href="#">Inventory</a>
+            <a href="#">Sell Your Car</a>
+            <a href="#">Finance</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="#">About Us</a>
+            <a href="#">Journal</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Midnight Drive. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
